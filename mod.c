@@ -1,3 +1,4 @@
+#define _POSIX_C_SOURCE 200809L
 #include "monty.h"
 /**
  * f_mod - computes the rest of the division of the second
