@@ -1,4 +1,3 @@
-#define  _POSIX_C_SOURCE 200809L
 #ifndef __MONTY_H__
 #define __MONTY_H__
 
@@ -22,6 +21,7 @@ extern char **op_toks;
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
+ *
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
  */
@@ -37,6 +37,7 @@ typedef struct stack_s
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
  * @f: function to handle the opcode
+ *
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
@@ -96,4 +97,3 @@ int pchar_error(unsigned int line_number, char *message);
 
 
 #endif /* __MONTY_H__ */
-
